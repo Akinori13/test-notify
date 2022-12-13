@@ -14,15 +14,14 @@ jobs:
           customHeaders: '{"Content-Type": "application/json"}'
           data: |
             '{
-              "blocks":
-                [
+              "blocks": [
                   {
                     "type": "section",
                     "text":
                       {
                         "type": "mrkdwn",
-                        "text": "Hello, Assistant to the Regional Manager Dwight! *Michael Scott* wants to know where you'd like to take the Paper Company investors to dinner tonight.\n\n *Please select a restaurant:*",
-                      },
+                        "text": "Hello, Assistant to the Regional Manager Dwight! *Michael Scott* wants to know where you'd like to take the Paper Company investors to dinner tonight.\n\n *Please select a restaurant:*"
+                      }
                   },
                   { "type": "divider" },
                   {
@@ -30,15 +29,15 @@ jobs:
                     "text":
                       {
                         "type": "mrkdwn",
-                        "text": "*Ler Ros*\n:star::star::star::star: 2082 reviews\n I would really recommend the  Yum Koh Moo Yang - Spicy lime dressing and roasted quick marinated pork shoulder, basil leaves, chili & rice powder.",
+                        "text": "*Ler Ros*\n:star::star::star::star: 2082 reviews\n I would really recommend the  Yum Koh Moo Yang - Spicy lime dressing and roasted quick marinated pork shoulder, basil leaves, chili & rice powder."
                       },
                     "accessory":
                       {
                         "type": "image",
                         "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/DawwNigKJ2ckPeDeDM7jAg/o.jpg",
-                        "alt_text": "alt text for image",
-                      },
+                        "alt_text": "alt text for image"
+                      }
                   },
-                  { "type": "divider" },
-                ],
+                  { "type": "divider" }
+                ]
             }'
