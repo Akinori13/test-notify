@@ -7,4 +7,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - run: echo Hello
+      - name: Notify
+        uses: fjogeleit/http-request-action@v1
+        with:
+          url: ${{ secrets.WEBHOOK_URL }}
+          customHeaders: '{"Content-Type": "application/json"}'
+          data: '{"text":"Hello, World!"}'
