@@ -12,4 +12,4 @@ jobs:
         with:
           url: ${{ secrets.WEBHOOK_URL }}
           customHeaders: '{"Content-Type": "application/json"}'
-          data: '{"blocks": [{"type": "section","text":{"type": "mrkdwn","text": "Hello, World"}}}'
+          data: '{"blocks": [{"type": "section","text":{"type": "mrkdwn","text": "Hello, World"}}]}'
